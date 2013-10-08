@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185772481803F8F80058AE82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185772471803F8F80058AE82 /* UIKit.framework */; };
+		1857724A1803F8F80058AE82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185772491803F8F80058AE82 /* Foundation.framework */; };
+		1857724C1803F8F80058AE82 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1857724B1803F8F80058AE82 /* CoreGraphics.framework */; };
+		185772521803F8F80058AE82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 185772501803F8F80058AE82 /* InfoPlist.strings */; };
+		185772541803F8F80058AE82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185772531803F8F80058AE82 /* main.m */; };
+		185772581803F8F80058AE82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185772571803F8F80058AE82 /* AppDelegate.m */; };
+		1857725A1803F8F80058AE82 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 185772591803F8F80058AE82 /* Default.png */; };
+		1857725C1803F8F80058AE82 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1857725B1803F8F80058AE82 /* Default@2x.png */; };
+		1857725E1803F8F80058AE82 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1857725D1803F8F80058AE82 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		185772431803F8F80058AE82 /* DIYTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DIYTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		185772471803F8F80058AE82 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		185772491803F8F80058AE82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1857724B1803F8F80058AE82 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1857724F1803F8F80058AE82 /* DIYTabbar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DIYTabbar-Info.plist"; sourceTree = "<group>"; };
+		185772511803F8F80058AE82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		185772531803F8F80058AE82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		185772551803F8F80058AE82 /* DIYTabbar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DIYTabbar-Prefix.pch"; sourceTree = "<group>"; };
+		185772561803F8F80058AE82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		185772571803F8F80058AE82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		185772591803F8F80058AE82 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1857725B1803F8F80058AE82 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1857725D1803F8F80058AE82 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185772401803F8F80058AE82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185772481803F8F80058AE82 /* UIKit.framework in Frameworks */,
+				1857724A1803F8F80058AE82 /* Foundation.framework in Frameworks */,
+				1857724C1803F8F80058AE82 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185772381803F8F80058AE82 = {
+			isa = PBXGroup;
+			children = (
+				1857724D1803F8F80058AE82 /* DIYTabbar */,
+				185772461803F8F80058AE82 /* Frameworks */,
+				185772441803F8F80058AE82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		185772441803F8F80058AE82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185772431803F8F80058AE82 /* DIYTabbar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185772461803F8F80058AE82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				185772471803F8F80058AE82 /* UIKit.framework */,
+				185772491803F8F80058AE82 /* Foundation.framework */,
+				1857724B1803F8F80058AE82 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1857724D1803F8F80058AE82 /* DIYTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				185772561803F8F80058AE82 /* AppDelegate.h */,
+				185772571803F8F80058AE82 /* AppDelegate.m */,
+				1857724E1803F8F80058AE82 /* Supporting Files */,
+			);
+			path = DIYTabbar;
+			sourceTree = "<group>";
+		};
+		1857724E1803F8F80058AE82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1857724F1803F8F80058AE82 /* DIYTabbar-Info.plist */,
+				185772501803F8F80058AE82 /* InfoPlist.strings */,
+				185772531803F8F80058AE82 /* main.m */,
+				185772551803F8F80058AE82 /* DIYTabbar-Prefix.pch */,
+				185772591803F8F80058AE82 /* Default.png */,
+				1857725B1803F8F80058AE82 /* Default@2x.png */,
+				1857725D1803F8F80058AE82 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185772421803F8F80058AE82 /* DIYTabbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185772611803F8F80058AE82 /* Build configuration list for PBXNativeTarget "DIYTabbar" */;
+			buildPhases = (
+				1857723F1803F8F80058AE82 /* Sources */,
+				185772401803F8F80058AE82 /* Frameworks */,
+				185772411803F8F80058AE82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DIYTabbar;
+			productName = DIYTabbar;
+			productReference = 185772431803F8F80058AE82 /* DIYTabbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1857723A1803F8F80058AE82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = apple;
+			};
+			buildConfigurationList = 1857723D1803F8F80058AE82 /* Build configuration list for PBXProject "DIYTabbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 185772381803F8F80058AE82;
+			productRefGroup = 185772441803F8F80058AE82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185772421803F8F80058AE82 /* DIYTabbar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185772411803F8F80058AE82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185772521803F8F80058AE82 /* InfoPlist.strings in Resources */,
+				1857725A1803F8F80058AE82 /* Default.png in Resources */,
+				1857725C1803F8F80058AE82 /* Default@2x.png in Resources */,
+				1857725E1803F8F80058AE82 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1857723F1803F8F80058AE82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185772541803F8F80058AE82 /* main.m in Sources */,
+				185772581803F8F80058AE82 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		185772501803F8F80058AE82 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185772511803F8F80058AE82 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1857725F1803F8F80058AE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		185772601803F8F80058AE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		185772621803F8F80058AE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DIYTabbar/DIYTabbar-Prefix.pch";
+				INFOPLIST_FILE = "DIYTabbar/DIYTabbar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		185772631803F8F80058AE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DIYTabbar/DIYTabbar-Prefix.pch";
+				INFOPLIST_FILE = "DIYTabbar/DIYTabbar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1857723D1803F8F80058AE82 /* Build configuration list for PBXProject "DIYTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1857725F1803F8F80058AE82 /* Debug */,
+				185772601803F8F80058AE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185772611803F8F80058AE82 /* Build configuration list for PBXNativeTarget "DIYTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185772621803F8F80058AE82 /* Debug */,
+				185772631803F8F80058AE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1857723A1803F8F80058AE82 /* Project object */;
+}
