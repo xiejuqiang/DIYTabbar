@@ -7,9 +7,14 @@
 //
 
 #import "AppDelegate.h"
-
+#import "NavigationController.h"
+#import "HomePageViewController.h"
+#import "CompanyProfileViewController.h"
+#import "NewsCenterViewController.h"
+#import "ProductDisplayViewController.h"
+#import "MoreViewController.h"
 @implementation AppDelegate
-
+@synthesize tabBarController;
 - (void)dealloc
 {
     [_window release];
@@ -20,9 +25,36 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
+    tabBarController = [[ALTabBarController alloc] init];
+    [self createViewController];
+//    [self.window addSubview:tabBarController.view];
+    self.window.rootViewController = tabBarController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (void)createViewController
+{
+    HomePageViewController *homepageVC = [[HomePageViewController alloc] init];
+    NavigationController *homepageNC = [[NavigationController alloc] initWithRootViewController:homepageVC];
+    
+    CompanyProfileViewController *companyProfileVC = [[CompanyProfileViewController alloc] init];
+    NavigationController *companyProfileNC = [[NavigationController alloc] initWithRootViewController:companyProfileVC];
+    
+    NewsCenterViewController *newsCenterVC = [[NewsCenterViewController alloc] init];
+    NavigationController *newsCenterNC = [[NavigationController alloc] initWithRootViewController:newsCenterVC];
+    
+    ProductDisplayViewController *productDisplayVC = [[ProductDisplayViewController alloc] init];
+    NavigationController *productDisplayNC = [[NavigationController alloc] initWithRootViewController:productDisplayVC];
+    
+    MoreViewController *moreVC = [[MoreViewController alloc] init];
+    NavigationController *moreNC = [[NavigationController alloc] initWithRootViewController:moreVC];
+    
+    NSArray *viewControllerArray = @[homepageNC,companyProfileNC,newsCenterNC,productDisplayNC,moreNC];
+    
+    [tabBarController setViewControllers:viewControllerArray];
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
